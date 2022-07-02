@@ -1,0 +1,368 @@
+*{
+  padding: 0px;
+  margin: 0px;
+  box-sizing: border-box;
+}
+
+
+header {
+  width: 100%;
+  height: 105vh;
+  background-image: url('https://seolounge.radiantthemes.com/wp-content/uploads/2020/12/banner-bg-1.jpg?id=5298');
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+nav {
+  width: 100%;
+  height: 12vh;
+  border-top: 0.1px solid #858383;
+  border-bottom: 0.1px solid #858383;
+  display: flex;
+  padding:0 10%;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
+nav img{
+  width: 15%;
+  height: 50%;
+}
+
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  margin-left: 40px;
+  font-weight: 600;
+}
+
+
+
+
+
+
+header section{
+  display: flex;
+  margin:2vh 10%;
+}
+
+.container1{
+  width: 60%;
+  height: 60vh;
+  display: flex;
+  flex-direction:column;
+  align-items: flex-start;
+  justify-content: flex-end;
+}
+
+.container2{
+  width: 100%;
+  height: 60vh;
+  display: flex;
+  align-items: flex-end;
+  justify-content: flex-end;
+}
+
+.container2 img {
+  width: 70%;
+}
+
+section h1{
+  font-size:40px;
+  color:white;
+}
+
+section p{
+  color:white;
+  margin: 3vh 0;
+  font-size: 18px;
+  font-weight: 400;
+}
+
+
+.buttons a{
+  text-decoration: none;
+  color:white;
+  font-weight:500;
+}
+
+.buttons {
+  display: flex;
+}
+
+.button {
+  width: 160px;
+  height: 50px;
+  border-radius:3px;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+}
+
+.button1{
+  background-color:orangered;
+  margin-right: 10px;
+}
+
+.button2{
+  background-color:rgb(8,29,105);
+}
+
+
+.second{
+  width: 100%;
+  min-height:46vh;
+  margin-top: -20vh;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  margin-bottom: 200px;
+  flex-wrap: wrap;
+}
+
+
+
+
+.box{
+  width: 25%;
+  height:100%;
+  border-radius: 4px;
+  border-bottom: 2px solid orangered;
+  box-shadow: 0 1px 2px rgba(0,0,0,0.27);
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+
+
+
+
+.box1 {
+  background-color: white;
+}
+
+.box22 {
+  margin : 0 2% ;
+  background-image: url("https://seolounge.radiantthemes.com/wp-content/uploads/2021/01/box.png?id=5763");
+  background-repeat:no-repeat;
+  background-size: cover;
+}
+
+.box3 {
+  background-color: white;
+}
+
+
+.second h3{
+  text-align: center;
+  margin: 40px 50px 0px 50px;
+}
+
+.second p{
+  text-align: center;
+  margin: 20px 30px 40px 30px;
+}
+
+.box22 h3{
+  color: white;
+}
+
+.box22 p{
+  color: white;
+}
+
+
+.third{
+  width: 100%;
+  height: 80vh;
+  background-image: url("https://ninzio.com/silvertech/wp-content/uploads/2021/01/bg-67.jpg");
+  margin-bottom: 20vh;
+}
+
+
+.maincontainer{
+  width: 80%;
+  height: 100%;
+  margin: 0px auto;
+  display: flex;
+}
+
+.mainc{
+  width: 50%;
+  height: 100%;
+}
+
+
+
+.maintwo{
+  padding-right: 5%;
+  padding-left: 5%;
+  color:rgb(62, 62, 62);
+}
+
+.mainone img{
+
+  width: 90%;
+  height: 100%;
+  object-fit: contain;
+
+}
+
+.maintwo h2{
+  margin-top: 3vh;
+  font-size:30px;
+  color: #333336;
+}
+
+.maintwo p{
+  margin-top: 3vh;
+  line-height:3.5vh;
+  font-size:18px;
+  color:gray;
+}
+
+
+.button3 a{
+  text-decoration: none;
+  color:white;
+}
+
+.button3 {
+  background-color:rgb(8,29,105);
+  width: 160px;
+  height: 50px;
+  border-radius:3px;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  border-radius: 6px;
+  margin-top:6vh;
+}
+
+.button3:hover{
+  color:rgb(62, 62, 62);
+}
+
+
+.part2{
+  width: 90%;
+  height:50vh;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+}
+
+
+.part2 h3{
+
+  font-size:36px;
+}
+
+.part2 p{
+  width: 50%;
+  margin-top: 3vh;
+  line-height:3.5vh;
+  font-size:18px;
+  color:gray;
+}
+
+.App{
+  display: flex;
+  flex-direction: column;
+  justify-content:center;
+  align-items: center;
+}
+
+
+.part3{
+  width: 80%;
+  min-height:80vh;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  background-image: url("https://ninzio.com/silvertech/wp-content/uploads/2021/01/bg-67.jpg");
+  background-size: contain;
+}
+
+.part31{
+  width: 100%;
+  height:100%;
+  display: flex;
+  align-items:center;
+}
+
+.part32{
+  width: 100%;
+  height:100%;
+  display: flex;
+  align-items:center;
+  background-color:yellowgreen;
+}
+
+
+.p31{
+
+  width: 100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+
+}
+
+
+
+.p3{
+  display: flex;
+  flex-direction: column;
+  align-items:start;
+}
+
+.p3 h3{
+margin:3vh 0;
+color:rgb(62, 62, 62);
+}
+
+.p3 p{
+  width: 90%;
+  line-height:3.5vh;
+  font-size:18px;
+  color:gray;
+}
+
+.part2 h3{
+  color:rgb(62, 62, 62);
+}
+
+
+.partlast{
+  width: 60%;
+  text-align:center;
+}
+
+.partlast p{
+  width: 100%;
+  text-align:center;
+}
+
+
+.lastb{
+
+  width: 160px;
+  height: 50px;
+  border-radius:4px;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  background-color:rgb(8,29,105);
+  margin-top: 6vh;
+}
+
+.lastb a{
+  text-decoration: none;
+  color:white;
+
+}
